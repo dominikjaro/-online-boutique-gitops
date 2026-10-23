@@ -1,0 +1,21 @@
+stages:
+- deploy-dev
+
+deploy-dev:
+  stage: deploy-dev
+  before_script:
+  - wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/local/bin/yq
+  - chmod +x /usr/local/bin/yq
+  - git config --global user.name gitlabci-bot
+  - git config --global user.email gitlabci-bot@online-boutique.com 
+  script:
+  - git checkout main
+  - yq -i "(.images[] | select(.name == \"$MS_NAME\") | .newTag) = \"$MS_VERSION\"" overlays/dev/kustomization.yaml
+  - git add overlays/dev/kustomization.yaml
+  - git commit -m "Update $MS_NAME to $MS_VERSION"
+  - git push -o ci.skip "https://${GIT_PUSH_USERNAME}:${GIT_PUSH_PASSWORD}@gitlab.com/dominikjaro789/online-boutique-gitops.git"
+
+rules:
+- if: $CI_PIPELINE_SOURCE == "pipeline"
+  when: always
+- when: never
