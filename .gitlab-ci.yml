@@ -15,7 +15,7 @@ deploy-dev:
   - git commit -m "Update $MS_NAME to $MS_VERSION"
   - git push -o ci.skip "https://${GIT_PUSH_USERNAME}:${GIT_PUSH_PASSWORD}@gitlab.com/dominikjaro789/online-boutique-gitops.git"
 
-rules:
-- if: $CI_PIPELINE_SOURCE == "pipeline"
-  when: always
-- when: never
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "pipeline"
+    when: always
+  - when: never
