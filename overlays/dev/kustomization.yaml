@@ -5,34 +5,34 @@ resources:
 images:
 - name: gcr-adservice
   newName: gcr.io/google-samples/microservices-demo/adservice
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-cartservice
   newName: gcr.io/google-samples/microservices-demo/cartservice
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-currencyservice
   newName: gcr.io/google-samples/microservices-demo/currencyservice
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-emailservice
   newName: gcr.io/google-samples/microservices-demo/emailservice
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-checkoutservice
   newName: gcr.io/google-samples/microservices-demo/checkoutservice
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-frontend
   newName: gcr.io/google-samples/microservices-demo/frontend
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-productcatalogservice
   newName: gcr.io/google-samples/microservices-demo/productcatalogservice
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-shippingservice
   newName: gcr.io/google-samples/microservices-demo/shippingservice
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-recommendationservice
   newName: gcr.io/google-samples/microservices-demo/recommendationservice
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-paymentservice
   newName: gcr.io/google-samples/microservices-demo/paymentservice
-  newTag: v0.10.7
+  newTag: v0.10.0
 - name: gcr-loadgenerator
   newName: gcr.io/google-samples/microservices-demo/loadgenerator
-  newTag: v0.10.7
+  newTag: v0.10.0
