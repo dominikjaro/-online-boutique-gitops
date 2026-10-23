@@ -33,3 +33,6 @@ images:
 - name: gcr-paymentservice
   newName: gcr.io/google-samples/microservices-demo/paymentservice
   newTag: v0.10.7
+- name: gcr-loadgenerator
+  newName: gcr.io/google-samples/microservices-demo/loadgenerator
+  newTag: v0.10.7
