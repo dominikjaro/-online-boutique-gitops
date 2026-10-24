@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: open-policy-agent
 resources:
   - block-nodeport-services.yaml
-  - nodeport-constraint.yaml
+  #- nodeport-constraint.yaml
