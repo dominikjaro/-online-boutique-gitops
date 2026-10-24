@@ -4,3 +4,5 @@ namespace: open-policy-agent
 resources:
   - block-nodeport-services.yaml
   - nodeport-constraint.yaml
+  - block-priviliged-containers.yaml
+  #- priviliged-container-constraint.yaml
