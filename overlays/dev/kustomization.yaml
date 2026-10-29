@@ -26,9 +26,9 @@ images:
   - name: gcr-productcatalogservice
     newName: gcr.io/google-samples/microservices-demo/productcatalogservice
     newTag: v0.10.0
-  - name: gcr-shippingservice
-    newName: gcr.io/google-samples/microservices-demo/shippingservice
-    newTag: v0.10.0
+  # - name: gcr-shippingservice
+  #   newName: gcr.io/google-samples/microservices-demo/shippingservice
+  #   newTag: v0.10.0
   # - name: gcr-recommendationservice
   #   newName: gcr.io/google-samples/microservices-demo/recommendationservice
   #   newTag: v0.10.0

@@ -24,4 +24,4 @@ resources:
 - paymentservice.yaml
 - productcatalogservice.yaml
 #- recommendationservice.yaml
-- shippingservice.yaml
+#- shippingservice.yaml
