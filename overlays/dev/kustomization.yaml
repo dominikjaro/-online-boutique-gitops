@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: online-boutique
 resources:
   - ../../base
-  - ../../components
+  # ../../components
 images:
   - name: gcr-adservice
     newName: gcr.io/google-samples/microservices-demo/adservice
