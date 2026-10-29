@@ -50,12 +50,12 @@ spec:
         - name: PORT
           value: "50051"
         - name: DISABLE_PROFILER
-        - name: STRIPE_SECRET_AWS
-          valueFrom:
-            secretKeyRef:
-              name: stripe-api-key
-              key: stripe-key
           value: "1"
+        # - name: STRIPE_SECRET_AWS
+        #   valueFrom:
+        #     secretKeyRef:
+        #       name: stripe-api-key
+        #       key: stripe-key
         readinessProbe:
           grpc:
             port: 50051
