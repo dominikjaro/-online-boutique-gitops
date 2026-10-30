@@ -72,3 +72,4 @@ AWS EKS Cluster
 * The ExternalSecret is part of the application overlays hence this lives under the components and deployed with the app overlays.
   * There we defined the SecretStore (ClusterSecretStore reference) and the Remote secret name/key to fetch.
   * Target is the name of the K8s native secret that ExternalSecret will create.
+* In the payementservice.yaml manifest we reference the ExternalSecret as an ENV var to get the needed secrets.
