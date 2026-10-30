@@ -14,9 +14,9 @@ images:
   # - name: gcr-currencyservice
   #   newName: gcr.io/google-samples/microservices-demo/currencyservice
   #   newTag: v0.10.0
-  - name: gcr-emailservice
-    newName: gcr.io/google-samples/microservices-demo/emailservice
-    newTag: v0.10.0
+  # - name: gcr-emailservice
+  #   newName: gcr.io/google-samples/microservices-demo/emailservice
+  #   newTag: v0.10.0
   - name: gcr-checkoutservice
     newName: gcr.io/google-samples/microservices-demo/checkoutservice
     newTag: v0.10.0

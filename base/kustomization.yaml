@@ -19,7 +19,7 @@ resources:
 - cartservice.yaml
 - checkoutservice.yaml
 #- currencyservice.yaml
-- emailservice.yaml
+#- emailservice.yaml
 - frontend.yaml
 - paymentservice.yaml
 - productcatalogservice.yaml
